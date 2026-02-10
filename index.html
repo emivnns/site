@@ -66,10 +66,35 @@
 
             <h2>Contato</h2>
             <p>Tem um projeto em mente? Entre em contato:</p>
-            <address>
-                E-mail: <a href="mailto:emily@gmail.com">emivnns@gmail.com</a> <br>
-                Telefone:<a href="Telefone: 47 99246-1266"> 47 99246-1266</a>
-            </address>
+
+
+            <form action="">
+                <label for="nome">Nome: </label>
+                <input type="text" id="name" name="nome"required> <br>
+
+
+                <label for="email">E-mail: </label>
+                <input type="email" id="email" name="email"required> <br>
+
+                
+                <label for="telefone">Telefone: </label>
+                <input type="tel" id="telefone" name="telefone"> <br>
+
+                <label for="assunto">Assunto: </label>
+                <select name="assunto" id="">assunto
+                <option value="orçamento">Orçamento</option>
+                <option value="duvida">Dúvida</option>
+                <option value="outro">Outro</option>
+                </select>
+
+                <label for="mensagem">Mensagem: </label>
+                <textarea name="mensagem" id="mensagem" cols="10" rows="3" required></textarea>
+
+                <input type="checkbox" id="inscricao" name="inscricao">
+                
+                <label for="inscricao">Deseja receber minhas novidades? Fique por dentro.</label> <br>
+
+                <input type="submit"value="Enviar mensagem">
 
         </section>
 
